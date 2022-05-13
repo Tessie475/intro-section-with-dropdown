@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+</head>
+<body>
+  <style>
+    body{
+      font-family: 'Epilogue', sans-serif;
+    }
+
+    .nav-text{
+      color: hsl(0, 0%, 41%);
+    }
+    .nav-btn{
+      border-color: black;
+      border-radius: 10px;
+      color: hsl(0, 0%, 41%);
+    }
+    .img{
+      width:70% ;
+      /* height: 60%; */
+       margin-left:3rem ;
+    }
+    .work{
+      font-size: 5rem;
+      font-weight: 700;
+      margin-top: 20%;
+    }
+    .team{
+      font-size: 15px;
+      color: hsl(0, 0%, 41%);
+    }
+   
+    .btn-learn{
+      background-color: hsl(0, 0%, 8%);
+      border-radius: 10px;
+      color: hsl(0, 0%, 98%);
+    }
+    .btn-learn:hover{
+      background-color: hsl(0, 0%, 98%);
+      color: hsl(0, 0%, 8%);
+      border-color: hsl(0, 0%, 8%);
+    }
+    .nav-text:hover{
+      color: hsl(0, 0%, 8%);
+    }
+    @media (max-width: 375px) {
+      .img{
+        width: 100%;
+        margin-left: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      .footer-icon1{
+        margin-bottom: 1rem;
+      }
+      .footer-icon2{
+        margin-bottom: 1rem;
+      }
+      .footer-icon3{
+        margin-bottom: 1rem;
+      }
+      .footer-icon4{
+        margin-bottom: 1rem;
+      }
+
+    }
+   
+  </style>
+    <main>
+        <diV class="container-fluid">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                      <img class="navbar-brand" src="logo.svg">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle nav-text" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Features
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                  <li><a class="dropdown-item" href="#"><span  class="me-2"><img src="icon-todo.svg"></span>Todo List</a></li>
+                                  <li><a class="dropdown-item" href="#"><span  class="me-2"><img src="icon-calendar.svg"></span>Calender</a></li>
+                                  <li><a class="dropdown-item" href="#"><span  class="me-2"><img src="icon-reminders.svg"></span>Reminders</a></li>
+                                  <li><a class="dropdown-item" href="#"><span class="me-2"><img src="icon-planning.svg"></span>Planning</a></li>
+                                  
+                                </ul>
+                                
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle nav-text" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Company
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                  <li><a class="dropdown-item" href="#">History</a></li>
+                                  <li><a class="dropdown-item" href="#">Our Team</a></li>
+                                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                                </ul>
+                                
+                              </li>
+                          <li class="nav-item">
+                            <a class="nav-link nav-text"href="#">Careers</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link nav-text" href="#">About</a>
+                          </li>
+                          
+                        </ul>
+
+                      </div>
+                      <div class="collapse navbar-collapse " id="navbarScroll">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                          <li class="nav-item">
+                            <a class="nav-link nav-text" href="#">Login</a>
+                          </li>
+                          <li class="nav-item ">
+                           <button  class="btn nav-btn">
+                             Register
+                           </button>
+                          </li>
+
+                        </ul>
+
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+            <div class="container">
+              <div class="row main-div ">
+                <div class="col-md-6 gs-3">
+                  <div>
+                    <h1 class="work">Make <br> remote work</h1>
+                  <p class="team">Get your team in sync, no matter your location. 
+                    <br> Streamline process, create team rituals,<br> and watch productivity soar.
+                  </p>
+                  <br>
+                  <button class="btn btn-learn px-3">Learn more</button>
+                  </div> 
+                </div>
+               <div class="col-md-6">
+                <div>
+                  <img class="img img-fluid mt-2 " src="image-hero-desktop.png">
+              
+               </div>
+  
+               </div>
+               <footer>
+                <img class="me-4 footer-icon1"src="client-databiz.svg">
+                <img class="me-4 footer-icon2"src="client-audiophile.svg">
+                <img class="me-4 footer-icon3"src="client-meet.svg">
+                <img class="footer-icon4"src="client-maker.svg">
+             </footer>
+               </div>
+
+            </div>
+        </diV>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>  
